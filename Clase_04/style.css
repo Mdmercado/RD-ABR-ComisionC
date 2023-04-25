@@ -1,0 +1,45 @@
+/* Selector universal */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Etiquetas Grales. */
+body {
+  background-color: wheat;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1,
+section {
+  margin-top: 20px;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  grid-gap: 0 10px;
+}
+
+/* Estilos Puntuales */
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+header ul li {
+  color: grey;
+  margin-left: 10px;
+}
+
+.principal {
+  background-color: #f5f5f5;
+  text-align: center;
+}
