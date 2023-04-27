@@ -9,3 +9,4 @@ Repositorio de ejercitación en clase durante el curso
 2. Listas, enlaces, tablas
 3. Layout y formularios
 4. 1er clase CSS
+5. 2da clase CSS BOX-MODEL + estilos aplicables
