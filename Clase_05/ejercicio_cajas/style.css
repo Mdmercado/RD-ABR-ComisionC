@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  width: 400px;
+  height: 150px;
+  background-color: grey;
+  border: 4px dotted black;
+  margin: 50px;
+  /* margin: 10px 20px 10px 20px;  */
+  /* margin: 0 10px;  0 arriba y abajo, y 10px izq derecha.*/
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  /* font-family: "Bruno Ace SC", cursive; */
+  font-family: "Dancing Script", cursive;
+}
