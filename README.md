@@ -10,3 +10,4 @@ Repositorio de ejercitación en clase durante el curso
 3. Layout y formularios
 4. 1er clase CSS
 5. 2da clase CSS BOX-MODEL + estilos aplicables
+6. 3da clase CSS floats + flexbox con práctica incluyendo media querys
