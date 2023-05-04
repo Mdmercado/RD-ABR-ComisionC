@@ -1,0 +1,25 @@
+.encabezado {
+  width: 100%;
+  height: 150px;
+  background: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin-top: 10px;
+}
+section {
+  display: flex;
+  flex-direction: column; /* // CAMBIAR LA DIRECCION DEL FLEX */
+}
+
+section article {
+  background: lightseagreen;
+  padding: 10px;
+}
+.secondArticle {
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin: 10px 0;
+}

@@ -1,0 +1,78 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* MEDIA QUERYS especifica en este caso, un umbral de anchura */
+/* @media only screen and (min-width: 320px) and (max-width: 576px) {
+  .contenedor {
+    width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .cajas {
+    width: 100%;
+  }
+} */
+
+/* existen mq con minimos de ancho */
+
+/* @media minimo para celular @media minimo para tablet @media minimo para monitor/notebook; */
+
+/* ESTILOS CELULAR */
+@media only screen and (min-width: 200px) {
+  /* Estilos para pantallas más pequeñas */
+  .contenedor {
+    flex-direction: column;
+  }
+  .celu {
+    font-size: 36px;
+  }
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+/* ESTILOS tablet */
+@media only screen and (min-width: 420px) {
+  /* Estilos para pantallas más pequeñas */
+  .contenedor {
+    flex-direction: column;
+  }
+  .celu {
+    font-size: 36px;
+    display: none;
+  }
+  .tablet {
+    font-size: 36px;
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+/* ESTILOS notebook */
+@media only screen and (min-width: 769px) {
+  /* Estilos para pantallas más pequeñas */
+  .contenedor {
+    flex-direction: column;
+  }
+  .celu {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    font-size: 36px;
+    display: block;
+  }
+}

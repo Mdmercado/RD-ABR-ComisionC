@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  overflow: hidden; /* para que el contenedor contenga los floats */
+}
+
+.left-column {
+  width: 60%; /* ancho de la columna izquierda */
+  float: left;
+}
+
+.right-column {
+  width: 40%; /* ancho de la columna derecha */
+  float: right;
+}

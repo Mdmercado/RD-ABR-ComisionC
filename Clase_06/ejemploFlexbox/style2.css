@@ -1,0 +1,40 @@
+.contenedor {
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; ejemplo1 */
+  /* flex-direction: row-reverse; ejemplo2  */
+  /* flex-direction: column; ejemplo3 */
+  /* flex-direction: column-reverse; ejemplo4 */
+  /* flex-wrap: wrap; ejemplo5  */
+}
+
+/* ROW es la direction por defecto */
+.elemento {
+  /* afecto a todos los divs que tengan "elemento" en su class */
+  width: 30px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+/* Estilos individuales */
+.el-1 {
+  background-color: #2c3e50;
+}
+.el-2 {
+  background-color: #34495e;
+}
+.el-3 {
+  background-color: #5d6d7e;
+}
+.el-4 {
+  background-color: #7f8c8d;
+}
+.el-5 {
+  background-color: #bdc3c7;
+}
+.el-6 {
+  background-color: #ecf0f1;
+}
+.el-7 {
+  background-color: #ffffff;
+}
