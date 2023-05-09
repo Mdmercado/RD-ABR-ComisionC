@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: 500px 1fr 2fr; */
+  grid-template-rows: repeat(2, 1fr); /* 2 filas de igual altura */
+  grid-gap: 10px; /* espacio entre los elementos */
+}
+
+.item {
+  background-color: #ddd;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* cambia a 2 columnas */
+    grid-template-rows: repeat(3, 1fr); /* cambia a 3 filas */
+  }
+}
