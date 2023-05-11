@@ -1,14 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
+  margin: 5px;
+  height: calc(100vh - 10px);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-columns: 500px 1fr 2fr; */
-  grid-template-rows: repeat(2, 1fr); /* 2 filas de igual altura */
-  grid-gap: 10px; /* espacio entre los elementos */
+  grid-template-rows: repeat(3, 1fr); /* 2 filas de igual altura */
+  /* espacio entre los elementos */
+  gap: 10px;
 }
 
 .item {
   background-color: #ddd;
-  padding: 20px;
   font-size: 30px;
   text-align: center;
 }
