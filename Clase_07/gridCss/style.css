@@ -7,7 +7,7 @@ body {
   height: calc(100vh - 10px);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr); /* 2 filas de igual altura */
+  grid-template-rows: repeat(3, 1fr);
   /* espacio entre los elementos */
   gap: 10px;
 }
