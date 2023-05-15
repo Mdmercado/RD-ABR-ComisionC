@@ -13,3 +13,4 @@ Repositorio de ejercitación en clase durante el curso
 6. CSS floats + flexbox con práctica incluyendo media querys
 7. CSS Grid y Media Querys
 8. CSS(grid, flexbox, mediaQueries) con Framework [Bootstrap5](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+9. Introduccion a JavaScript + dudas y repaso
