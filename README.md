@@ -16,3 +16,4 @@ Repositorio de ejercitación en clase durante el curso
 9. Introduccion a JavaScript + dudas y repaso
 10. JavaScript variables, concatenacion, op.Aritméticos, op.Logicos
 11. JavaScript estructuras de control. (if, switch, for, while) y metodos de array (push, pop)
+12. JavaScript Funciones base y flechas.
